@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sabrina Paramitha's UX Portfolio</title>
+    <link rel="stylesheet" href="https://use.typekit.net/mbl8jqj.css">
+    <link rel="icon" href="imgs/logo.svg">
+    <link rel="stylesheet" href="https://use.typekit.net/mbl8jqj.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <!-- threeJS stuff -->
+   
+    <script async src="https://ga.jspm.io/npm:es-module-shims@1.5.1/dist/es-module-shims.js" crossorigin="anonymous"></script>
+<script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="leftNav">
+                <ul>
+                    <li><a href="#intro"><img src="imgs/logo.svg" alt="HTML tutorial"></a></li>
+                    <li><a href="#work">WORK</a></li>
+                    <li><a href="#">FUN</a></li>
+                </ul>
+            </div>
+            <div class="rightNav">
+                <ul>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="#">RESUME</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+         
+        </nav>
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </header>
+    <!-- end of nav -->
+    <div class="intro" id="intro">
+        <div id="introText">
+            <h1>SABRINA IS A<BR> DESIGNER OF<BR>GAMES</h1>
+            <p>A multifaceted interaction designer with a passion for solving problems to create more meaningful and FUN experiences&mdash;both physical and digital.<br><br> Currently into: 3D modelling and motion design.</p>
+        </div>
+    </div>
+    <div class="wrapper" id="work">
+        <h1>SELECTED WORKS</h1>
+        <div class="worksRow">
+          <div class="work">  <a href="everand.html"><div class="workImg">
+                <img src="imgs/ebook.png" alt="HTML tutorial"></div></a>
+                <p class="tag">UX/UI DESIGN, USER RESEARCH</p>
+                <a href="everand.html"><h2>Redesigning for Accessibility
+                    in an eBook app</h2></a>
+                <p>Making the Everand app more accessible for users with ADHD.</p>
+            </div>
+            <div class="work"><div class="workImg"><img src="imgs/rat.jpg" alt="HTML tutorial"></div>
+                <p class="tag">UX/UI DESIGN, USER RESEARCH</p>
+                <h2>Marshmallow Case Study</h2>
+                <p>Designing an app to improve delayed gratification for users with ADHD.</p>
+            </div>
+        </div>
+        <div class="worksRow">
+            <div class="work"><div class="workImg"><img src="imgs/dog.jpg" alt="HTML tutorial"></div>
+                <p class="tag">AR, INTERACTION DESIGN, VISUAL DESIGN</p>
+                <h2>Creating an immersive
+                    AR Experience for a
+                    redesigned book cover</h2>
+                <p>Using SparkAR to give users a taste of what’s in store for the novel "If Cats Disappeared from the
+                    World" by Genki Kawamura.</p>
+            </div>
+            <div class="work"><div class="workImg"><img src="imgs/cirno.jpg" alt="HTML tutorial"></div>
+                <p class="tag">CODING, GAME DEV, INTERACTION DESIGN</p>
+                <h2>Coding a physically interactive virtual pet with P5.JS</h2>
+                <p>A virtual pet marketed towards young children using the Makey-Makey tool.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper" id="return">
+        <a href="#intro">
+            <p>&#8593; Back to top &#8593;</p>
+        </a>
+
+    </div>
+
+
+    <script src="script.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

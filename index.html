@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_cards.css">
+    <title>Sabrina Paramitha's UX Portfolio</title>
+    <link rel="stylesheet" href="https://use.typekit.net/mbl8jqj.css">
+    <link rel="icon" href="imgs/logo.svg">
+    <link rel="stylesheet" href="https://use.typekit.net/mbl8jqj.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> 
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/@rive-app/canvas@2.17.3"></script>
+    <!-- threeJS stuff -->
+   
+    <script async src="https://ga.jspm.io/npm:es-module-shims@1.5.1/dist/es-module-shims.js" crossorigin="anonymous"></script>
+<script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="leftNav">
+                <ul>
+                    <li><a href="#intro"><img src="imgs/logo.svg" alt="HTML tutorial"></a></li>
+                    <li><a href="#work">WORK</a></li>
+                    <li><a href="#">FUN</a></li>
+                </ul>
+            </div>
+            <div class="rightNav">
+                <ul>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="#">RESUME</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+         
+        </nav>
+        <!-- <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div> -->
+    </header>
+    <!-- end of nav -->
+    <div class="intro" id="intro">
+        <div id="background"></div>
+        <div id="introContent">
+        <div id="introText">
+            <h1 class="staticText">SABRINA IS A<BR> DESIGNER OF</h1>
+            <h1 class="animatedText" id="animatedText"></h1>
+            <p>Hello! I'm a multifaceted interaction designer with a passion for solving problems to create more meaningful and FUN experiences. ☆</p>
+        </div>
+        <div id="introAnim">
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+            <dotlottie-player src="https://lottie.host/d962cb2c-54ae-49e3-9b8e-fff7345d0203/Ay1ekkOQpf.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player>
+        
+        </div></div>
+        <div class="scrollIndicator">
+            <a href="#work"><div class="mouse"></div> </a>
+          
+      
+          </div>
+    </div>
+    <div class="wrapper" id="work">
+        <h1>✦ SELECTED WORKS ✦</h1>
+        <div class="worksRow">
+          <div class="work">  <a href="everand.html"><div class="workImg">
+                <img src="imgs/ebook.png" alt="HTML tutorial"></div></a>
+                <p class="tag">UX/UI DESIGN, USER RESEARCH</p>
+                <a href="everand.html"><h2>Everand redesign for ADHD users</h2></a>
+                <p>Making the Everand app more accessible for users with ADHD.</p>
+            </div>
+            <div class="work"><div class="workImg"><img src="imgs/rat.jpg" alt="HTML tutorial"></div>
+                <p class="tag">UX/UI DESIGN, USER RESEARCH, CONCEPT</p>
+                <h2>VOID app</h2>
+                <p>Concept for a social media app made for anonymous venting.</p>
+            </div>
+        </div>
+        <div class="worksRow">
+            <div class="work"><div class="workImg"><img src="imgs/dog.jpg" alt="HTML tutorial"></div>
+                <p class="tag">AR, INTERACTION DESIGN, VISUAL DESIGN</p>
+                <h2>Book cover AR experience</h2>
+                <p>Using SparkAR to give users a taste of what’s in store for the novel "If Cats Disappeared from the
+                    World" by Genki Kawamura.</p>
+            </div>
+            <div class="work"><div class="workImg"><img src="imgs/cirno.jpg" alt="HTML tutorial"></div>
+                <p class="tag">CODING, GAME DEV, INTERACTION DESIGN</p>
+                <h2>Physically interactive virtual pet</h2>
+                <p>A virtual pet marketed towards young children using the Makey-Makey tool.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper" id="return">
+        <a href="#intro">
+            <p>&#8593; Back to top &#8593;</p>
+        </a>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
